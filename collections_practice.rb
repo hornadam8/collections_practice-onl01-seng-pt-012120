@@ -41,3 +41,11 @@ def sum_array(array)
   end
 end
 
+def add_s(array)
+  array.each do |word|
+    if array.index(word) != 1
+      word += s
+    end
+  end
+end
+
