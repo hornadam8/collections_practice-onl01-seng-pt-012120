@@ -44,7 +44,6 @@ end
 def add_s(array)
   array.collect do |word|
     array.index(word) != 1 ? word += "s" : word
-    end
   end
 end
 
