@@ -19,3 +19,13 @@ def swap_elements(array)
   array
 end
 
+def reverse_array(array)
+  array.reverse
+end
+
+def find_a(array)
+  array.select do |word|
+    word.starts_with?(a)
+  end
+end
+
